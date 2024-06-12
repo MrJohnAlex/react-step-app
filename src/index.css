@@ -7,5 +7,40 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: antiquewhite;
+  width: 50%;
+  margin: 8rem auto;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: rgba(26, 25, 25, 0.308);
+}
+.steps .numbers {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+.steps .numbers p {
+  padding: 0.75rem;
+  font-size: 2rem;
+  border-radius: 50%;
+  background-color: rgba(237, 231, 231, 0.734);
+}
+.steps .numbers p.active {
+  background-color: rgb(8, 97, 231);
+  color: white;
+}
+.steps .message {
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+}
+.steps .buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5rem;
+}
+.steps .buttons button {
+  cursor: pointer;
+  padding: 0.5rem;
+  background-color: rgb(8, 97, 231) !important;
+  color: #fff !important;
 }
